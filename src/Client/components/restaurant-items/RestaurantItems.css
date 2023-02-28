@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 100%;
+}
+img{
+    width: 100%;
+}
+
+.item-images{
+    display:flex;
+    justify-content: center;
+    width:300px;
+    margin-top: 30px;
+
+}
+.restaurant-name{
+    text-align: center;
+    font-family:'Segoe UI';
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.address{
+    text-align: center;
+    width:300px;
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.line{
+    margin-top: 10px;
+    border-top:1px solid black ;
+
+}
+.location-icon{
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.reviews{
+    margin-top: 10px;
+    text-align: right;
+}

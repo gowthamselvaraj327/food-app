@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-fmaily : montserrat, sans-serif;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.body{
+	height:100vh;
+    width:100%;
+    background-image: url(../../../Client/img/login-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;
+    height: 100%;
+    width:100%;
+}
+
+.login-content {
+    background:#fff;
+    padding:100px 100px 50px 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:400px;
+    font-size:14px;
+    border-radius:5px;
+}
+
+.user-icon {
+    background:  #C72C2C;
+    border-radius:5px;
+    width:50%;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:-20px;
+}
+
+.form-group{
+    margin-bottom:20px;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.login-form{
+    width:100%;
+}
+
+input[type="text"].form-control, input[type="password"].form-control{
+    font-size:16px;
+    outline:none;
+    width: calc(100% -36px);
+    border:2px solid #CCC;
+    padding:16px;
+    border-radius:2px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"].form-control:hover, input[type="password"].form-control:hover{
+    border:2px solid #FCEE21;
+}
+
+input[type="text"].form-control:focus, input[type="password"].form-control:focus{
+    border:2px solid #C72C2C
+}
+
+input[type="text"].form-control:active, input[type="password"].form-control:active{
+    border:2px solid  #C72C2C;
+}
+
+label{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+}
+
+button{
+    outline:none;
+    background: #C72C2C;
+    color:#FFF;
+    padding:16px;
+    display:block;
+    width:100%;
+    border:none;
+    text-transform:uppercase;
+    font-size:16px;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    box-shadow:5px 5px 5px #CCC;
+}
